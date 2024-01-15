@@ -66,6 +66,14 @@ body {
     color: #FF5400;
 }
 
+.menuimg {
+    display: none;
+}
+
+.menuimg img {
+    width: 24px;
+}
+
 /* Explore Trave */
 
 .travelexplore {
@@ -438,12 +446,110 @@ body {
 }
 
 
+/* Nearby Location */
+
+.locationsmain {
+    background: url(../img/Pattren2.svg) no-repeat;
+    background-size: cover;
+    padding: 100px 200px;
+}
+
+.locationitems {
+    background: white;
+    padding: 100px 165px;
+}
+
+.locationtitle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.locationtitle span {
+    width: 25%;
+    background: #FF5400;
+    height: 3px;
+}
+
+.locationtitle h1 {
+    font-size: 32px;
+    margin: 0 20px;
+    color: #FF5400;
+    letter-spacing: 12px;
+    text-transform: uppercase;
+}
+
+.locationrow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.locationlist {
+    margin-right: 50px;
+    flex: 1;
+}
+
+.locationcities {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px;
+    border-bottom: 1px solid #808080;
+}
+
+.locationcities1 {
+    display: flex;
+    align-items: center;
+}
+
+.locationcities1 i {
+    margin-right: 15px;
+    color: #808080;
+    font-size: 18px;
+}
+
+.locationcities1 h6 {
+    font-family: 'Chivo', sans-serif;
+    font-weight: 300;
+    color: #808080;
+    margin-bottom: 0;
+    font-size: 18px;
+}
+
+.locationcities p {
+    font-family: 'Chivo', sans-serif;
+    font-weight: 300;
+    color: #808080;
+    margin-bottom: 0;
+    font-size: 18px;
+}
+
+.locationview {
+    margin-left: 50px;
+    flex: 1;
+}
+
+.locationview p {
+    font-family: 'Chivo', sans-serif;
+    font-weight: 300;
+    color: #808080;
+    margin-bottom: 20px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+
+
+
 /* Newsletter */
 
 .newsletter {
     display: flex;
     align-items: center;
     margin-bottom: 100px;
+    margin-top: 100px;
 }
 
 .newsletterform {
@@ -497,31 +603,37 @@ body {
     width: 100%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 .newsletterimg {
     flex: 1;
+    position: relative;
 }
 
 .newsletterimg img {
     width: 100%;
 }
 
+.dicountdiv {
+    position: absolute;
+    right: 6px;
+    bottom: 60px;
+    padding: 25px 45px;
+    background: #FF5400;
+    color: white;
+    border-radius: 16px;
+    transform: rotate(-22deg);
+}
 
+.dicountdiv h5 {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
 
-
-
-
+.dicountdiv h4 {
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+}
 
 
 /* Footer */
@@ -567,4 +679,283 @@ footer {
     font-weight: 300;
     color: #131318;
     margin-bottom: 0px;
+}
+
+
+
+/* Responsive */
+
+@media screen and (max-width:600px) {
+
+    .container {
+        width: auto;
+        display: block;
+        margin: 0 20px;
+    }
+
+    .headerlinks {
+        display: none;
+    }
+
+    .menuimg {
+        display: block;
+    }
+
+    .travelexplore {
+        padding: 32px 24px;
+        margin-bottom: 24px;
+    }
+
+    .travelexplorehead h1 {
+        font-size: 22px;
+        margin-bottom: 14px;
+    }
+
+    .travelexplorehead p {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .exploresearch {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 16px;
+    }
+
+    .populartour {
+        margin-bottom: 24px;
+        flex-direction: column;
+    }
+
+    .populartourtext h1 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .populartourtext p {
+        font-size: 14px;
+        margin-bottom: 14px;
+    }
+
+    .populartourtext {
+        margin-right: 0px;
+        margin-bottom: 16px;
+    }
+
+    .populartourimg {
+        width: 100%;
+    }
+
+    .populartourimg img {
+        width: 100%;
+    }
+
+    .destination {
+        margin-bottom: 24px;
+    }
+
+    .destination1 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 14px;
+        margin-bottom: 14px;
+    }
+
+    .places img {
+        height: 175px;
+        object-fit: cover;
+        border-radius: 16px;
+    }
+
+    .places p {
+        font-size: 20px;
+    }
+
+    .whyus {
+        margin-bottom: 24px;
+    }
+
+    .whyushead h1 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .whyushead p {
+        font-size: 14px;
+        margin-bottom: 24px;
+    }
+
+    .whyusitems {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 14px;
+        margin-bottom: 14px;
+    }
+
+    .whyusitem3 {
+        width: 100%;
+    }
+
+    .whyusitem1 {
+        padding: 20px;
+    }
+
+    .whyusitem1 img {
+        width: 50px;
+        margin-bottom: 15px;
+    }
+
+    .whyusitem1 h3 {
+        font-size: 20px;
+        margin-bottom: 14px;
+    }
+
+    .deals {
+        margin-bottom: 24px;
+    }
+
+    .dealshead h1 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .dealshead p {
+        font-size: 14px;
+        margin-bottom: 24px;
+    }
+
+    .dealsitem1 {
+        padding: 16px;
+        padding-top: 185px;
+        background-size: cover;
+    }
+
+    .discounts {
+        width: 100%;
+        padding: 20px;
+        border-radius: 16px;
+    }
+
+    .disicon1 h6 {
+        font-size: 14px;
+    }
+
+    .discounts h3 {
+        font-size: 20px;
+        margin-bottom: 16px;
+    }
+
+    .discounts p {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .discounts h4 {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .discounts button {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+
+    .seemore {
+        font-size: 16px;
+        padding: 10px 20px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .locationsmain {
+        background: url(../img/Pattren2.svg) no-repeat;
+        background-size: cover;
+        padding: 40px 20px;
+    }
+
+    .locationitems {
+        background: white;
+        padding: 10px;
+    }
+
+    .locationtitle span {
+        display: none;
+    }
+
+    .locationrow {
+        flex-direction: column;
+    }
+
+    .locationlist {
+        margin-right: 0;
+        flex: 1;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .locationview {
+        margin-left: 0;
+        flex: 1;
+    }
+
+    .newsletter {
+        margin-bottom: 24px;
+        margin-top: 24px;
+        flex-direction: column;
+    }
+
+
+    .newsletterform {
+        padding: 40px;
+        margin-right: 0px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .newsletterformhead {
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+    }
+
+    .newsletterformhead h3 {
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+
+    .newsletterformhead p {
+        font-size: 14px;
+        margin-bottom: 0px;
+    }
+
+    .mainfooter {
+        padding: 20px 40px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
