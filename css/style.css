@@ -438,10 +438,84 @@ body {
 }
 
 
+/* Newsletter */
+
+.newsletter {
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.newsletterform {
+    padding: 40px;
+    border: 1px solid #FF5400;
+    border-radius: 16px;
+    margin-right: 24px;
+    width: 380px;
+    height: 100%;
+}
+
+.newsletterformhead {
+    margin-bottom: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid rgba(19, 19, 24, 0.10);
+}
+
+.newsletterformhead h3 {
+    font-size: 24px;
+    font-weight: 800;
+    color: #131318;
+    margin-bottom: 16px;
+}
+
+.newsletterformhead p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 0px;
+    color: #5A5A5D;
+}
+
+.newsletterform input {
+    width: 100%;
+    border: none;
+    padding: 16px;
+    border-radius: 8px;
+    background-color: rgba(19, 19, 24, 0.05);
+    color: rgba(19, 19, 24, 0.30);
+    margin-bottom: 24px;
+}
+
+
+.newsletterform button {
+    font-size: 20px;
+    font-weight: 800;
+    background: #FF5400;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 15px 25px;
+    width: 100%;
+}
 
 
 
 
+
+
+
+
+
+
+
+
+
+.newsletterimg {
+    flex: 1;
+}
+
+.newsletterimg img {
+    width: 100%;
+}
 
 
 
