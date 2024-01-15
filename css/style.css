@@ -315,11 +315,127 @@ body {
 }
 
 
+/* Deals and Discounts */
 
+.deals {
+    margin-bottom: 100px;
+}
 
+.dealshead h1 {
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    color: #131318;
+    margin-bottom: 24px;
+}
 
+.dealshead p {
+    font-size: 16px;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 48px;
+    color: rgba(19, 19, 24, 0.70);
+}
 
+.dealsitem1 {
+    background: url(../img/deals1.png) no-repeat;
+    background-size: cover;
+    padding: 56px;
+    border-radius: 16px;
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: flex-end;
+}
 
+.dealsitem2 {
+    background: url(../img/deals2.png) no-repeat;
+    justify-content: flex-start;
+}
+
+.dealsitem3 {
+    background: url(../img/deals3.png) no-repeat;
+}
+
+.discounts {
+    width: 580px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 50px;
+    border-radius: 16px;
+}
+
+.discounticons {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.disicon1 {
+    margin-right: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.disicon1 img {
+    width: 24px;
+    margin-right: 8px;
+}
+
+.disicon1 h6 {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 0px;
+    color: #5A5A5D;
+}
+
+.discounts h3 {
+    font-size: 24px;
+    font-weight: 800;
+    color: #131318;
+    margin-bottom: 16px;
+}
+
+.discounts p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 16px;
+    color: #5A5A5D;
+}
+
+.discounts h4 {
+    font-size: 20px;
+    font-weight: 800;
+    color: #FF5400;
+    margin-bottom: 24px;
+}
+
+.discounts button {
+    font-size: 20px;
+    font-weight: 800;
+    background: #FF5400;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 15px 25px;
+}
+
+.seemore {
+    font-size: 20px;
+    font-weight: 800;
+    background: #FF5400;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 15px 25px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Simple Perfect Place */
+
+.pefectplacetext ul li {
+    color: #131318;
+    font-weight: 700;
+}
 
 
 
